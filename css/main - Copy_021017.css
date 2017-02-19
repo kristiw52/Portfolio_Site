@@ -1,0 +1,187 @@
+
+/* ovewriting bootstrap navbar-brand */
+.navbar-brand {
+    font-size: 14px;
+}
+
+/* ovewriting bootstrap navbar */
+.navbar-default {
+    background: white;
+    text-align: right;
+    border-color: white;
+}
+/*overwriting bootstrap navbar fixed */
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: b3b2b2;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 25px;
+    color: #777;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    line-height: 120%;
+    font-weight: 400;
+    font-family: "freight-sans-pro", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: #777;
+}
+
+p {
+    line-height: 28 px;
+    font-size: 14px;
+    color: #777;
+}
+
+header {
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height: 60px;
+	padding: 0px 0px 0px 40px;
+    color: b3b2b2;
+}
+
+
+.image_home {
+  background-image: url(../images/laptop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 780px;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 479px) {
+.image_home {
+    background-image: url(../images/laptop_mobile.jpg);
+  }
+}
+
+#about {
+    background: #efeded;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*  3-table image */
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.three-image {
+    color: #777;
+}
+
+.three-image {
+    display: table-cell;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.three-image h2 {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Montserrat, sans-serif;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+@media only screen and (max-width: 999px) {
+.three-image {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+.three-image, .block_content-two-column .page_half.fl, .block_darkBG-content-two-column .page_half.fl, .block_content-two-column-normal .page_half.fl, .block_content-two-column .page_half.fl, .block_darkBG-content-two-column .page_half.fl, .bottom_foot .page_half.fr, .page_thirds, .page_thatone, .page_thisone, .page_wide, .page_half.thisone, .page_full, .page_half.fl, .page_half.fr, #body_marketing-new .page_tricol_left_double, .page_half, .page_quarter, .blog_content, .page_tricol_right, .page_tricol_left, .page_tricol_content, .page_sidebar, .blog_main_column, .blog_header, .two_column, .fit, #page_hero .page_frame, #page_main .page_content, #page_main .page_sidebar, .contact_column_1, .contact_column_2, #footercopyright, #footer_address, #homepage_slide3_leftcaption, #homepage_slide3_rightcaption, .home_contentpanel .page_frame #home_contentpanel_3_text, #home_contentpanel_2 p, #home_secondslide #sidebar_slideshow_frame, #homepage_gallery_caption_3, #homepage_gallery_caption_2, #homepage_gallery_caption_1, #body_home .home_contentpanel p, .homeslide h3 {
+    width: 90%!important;
+    margin: 0!important;
+    padding: 0 5%;
+  }
+}
+
+.block_color-box-image .screen{
+    position: absolute;left: 0;top: 0;bottom: 0;right: 0;left: 0;
+    background-color: rgba(0,0,0,.8);
+    z-index:0;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+/*  3-table image ends */
+
+#about p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#designgallery p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#designgallery {
+    background: #e4e5e5;
+    padding: 30px 120px;
+}
+
+#contact {
+    background: #94cad0;
+    padding: 60px 90px 40px 80px;
+ }
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-heading {
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 60px;
+}
+
+.section-heading:after {
+    background: #777;
+    bottom: -20px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 80px;
+}
+
+footer {
+    font-size: 8px;
+    padding: 10px 50px 0px;
+}
+
+footer p {
+    font-size: 10px;
+}

@@ -1,0 +1,165 @@
+
+/* ovewriting bootstrap navbar-brand */
+.navbar-brand {
+    font-size: 14px;
+}
+
+/* ovewriting bootstrap navbar */
+.navbar-default {
+    background: white;
+    text-align: right;
+    border-color: white;
+}
+/*overwriting bootstrap navbar fixed */
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+html, body {
+    -webkit-text-size-adjust: 100%; 
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    color: b3b2b2;
+}
+
+body {
+    background: #fff;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 25px;
+    color: #777;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    line-height: 120%;
+    font-weight: 400;
+    font-family: "freight-sans-pro", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: #777;
+}
+
+p {
+    line-height: 28 px;
+    font-size: 14px;
+    color: #777;
+}
+
+header {
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height: 60px;
+	padding: 0px 0px 0px 40px;
+    color: b3b2b2;
+}
+
+
+/*Home background image desktop */
+.image_home {
+  background-image: url(../images/laptop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 765px;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+/* Home background image mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+.image_home {
+    background-image: url(../images/laptop_mobile.jpg);
+    height: 180px;
+    margin-top: 30px;
+    }
+}
+
+/* Home background image tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1020px) {
+.image_home {
+    background-image: url(../images/laptop_tablet.jpg);
+    height: 432px;
+    margin-top: 30px;
+    }
+}
+
+
+#about {
+    background: #efeded;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*  3-table image 
+@media only screen and (min-device-width: 320px) {
+.col-md-4-webdev { 
+    <img src="images/WebDev_mobile.jpg">
+}
+
+/*  3-table image ends */
+
+#about p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#designgallery p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#designgallery {
+    background: #e4e5e5;
+    padding: 30px 120px;
+}
+
+#contact {
+    background: #94cad0;
+    padding: 60px 90px 40px 80px;
+ }
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-heading {
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 60px;
+}
+
+.section-heading:after {
+    background: #777;
+    bottom: -20px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 80px;
+}
+
+footer {
+    font-size: 8px;
+    padding: 10px 50px 0px;
+}
+
+footer p {
+    font-size: 10px;
+}
