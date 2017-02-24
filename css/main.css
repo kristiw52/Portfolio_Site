@@ -62,10 +62,6 @@ header {
     color: b3b2b2;
 }
 
-img {
-    max-width: 100%;
-}
-
 /*Home background image desktop */
 .image_home {
   display: flex;
@@ -75,7 +71,6 @@ img {
   height: 765px;
   background-size: cover;
   margin-top: 30px;
-  max-width: 100%;
 }
 
 /* Home background image mobile */
