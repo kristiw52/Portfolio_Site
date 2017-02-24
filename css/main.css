@@ -84,7 +84,7 @@ header {
 }
 
 /* Home background image tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
 .image_home {
     background-image: url(../images/laptop_tablet.jpg);
     height: 432px;
@@ -99,8 +99,8 @@ header {
     padding-bottom: 30px;
 }
 
-/*  3-table image 
-@media only screen and (min-device-width: 320px) {
+/*  3-table image   
+@media only screen and (min-width: 320px) {
 .col-md-4-webdev { 
     <img src="images/WebDev_mobile.jpg">
 }
@@ -109,13 +109,13 @@ header {
 
 #about p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 #designgallery p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -155,11 +155,35 @@ header {
     width: 80px;
 }
 
+.form {
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/*
+.social-links a {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+.social-links a.linkedin {
+    background-position: 0 0; 
+}
+.social-links a.linkedin:hover {
+      background-position: 0 -36px; }
+  }
+
+*/
+
 footer {
     font-size: 8px;
     padding: 10px 50px 0px;
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 12px;
 }
