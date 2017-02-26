@@ -25,11 +25,11 @@
 /* Horizontal - can hide the .title properties if no title is on there  */
 @media only screen and (min-width:50px) and (max-width:500px) { 
 body { padding: 5px 0px 0px 5px; }
-	.gallery { max-width: 100%; }
+	.gallery { width: auto; margin-left: 35px; }
 }
 @media only screen and (min-width:501px) and (max-width:960px) { 
 }
-@media only creen and (min-width:961px) { 
+@media only screen and (min-width:961px) { 
 }	
 
 
