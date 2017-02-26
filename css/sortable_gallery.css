@@ -14,22 +14,22 @@
 .clear_both { clear: both; line-height: 1px; }
 
 
-/* Vertical - can hide the .title properties if no title is on there */ 
-@media screen and (min-height:50px) and (max-height:520px) {
+/* Vertical - can hide the .title properties if no title is on there */
+@media only screen and (min-height:50px) and (max-height:520px) {
 }
-@media screen and (min-height:521px) and (max-height:700px) { 
+@media only screen and (min-height:521px) and (max-height:700px) { 
 }
-@media screen and (min-height:701px) { 
+@media only screen and (min-height:701px) { 
 }
-	
-/* Horizontal - can hide the .title properties if no title is on there  */	
-@media screen and (min-width:50px) and (max-width:500px) { 
+
+/* Horizontal - can hide the .title properties if no title is on there  */
+@media only screen and (min-width:50px) and (max-width:500px) { 
 body { padding: 5px 0px 0px 5px; }
-	.gallery { width: auto; margin-left: 35px; }
+	.gallery { max-width: 100%; }
 }
-@media screen and (min-width:501px) and (max-width:960px) { 
+@media only screen and (min-width:501px) and (max-width:960px) { 
 }
-@media screen and (min-width:961px) { 
+@media only creen and (min-width:961px) { 
 }	
 
 
